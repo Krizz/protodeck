@@ -19,8 +19,8 @@ function writeTrip(obj,pbf) {
 
 function writeCoords(coords,pbf) {
   var i,j,sum = new Array(2),tsum = new Array(1);
-  flatCoords = [];
-  times = [];
+  var flatCoords = [];
+  var times = [];
   for (j = 0; j < 2; j++) {
     sum[j] = 0;
   }
